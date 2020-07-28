@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">My Tasks</router-link>
+      <router-link to="/home">My Tasks</router-link>
       <router-link to="/inProgress">In Progress</router-link>
       <router-link to="/completed">Completed</router-link>
     </div>
@@ -16,18 +16,19 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: #e1e1e1;
+  background: rgba(0,0,0,.2);
+  height:100%;
 }
 #nav {
   padding: 23px 0;
   height: 76px;
-  background: #4a90e2;
+  background: rgba(0,0,0,.3);
 }
 
 #nav a {
   /* font-family: Roboto-Regular; */
   font-size: 24px;
-  color: #00408b;
+  color: black;
   text-align: center;
   display: inline-block;
   width: 220px;
